@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A439D7341FD6707A007B8310 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A439D7331FD6707A007B8310 /* AppDelegate.m */; };
+		A439D7371FD6707A007B8310 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A439D7361FD6707A007B8310 /* ViewController.m */; };
+		A439D73A1FD6707A007B8310 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A439D7381FD6707A007B8310 /* Main.storyboard */; };
+		A439D73C1FD6707A007B8310 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A439D73B1FD6707A007B8310 /* Assets.xcassets */; };
+		A439D73F1FD6707A007B8310 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A439D73D1FD6707A007B8310 /* LaunchScreen.storyboard */; };
+		A439D7421FD6707A007B8310 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A439D7411FD6707A007B8310 /* main.m */; };
+		A439D74C1FD6707A007B8310 /* QHSafeExceptionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A439D74B1FD6707A007B8310 /* QHSafeExceptionTests.m */; };
+		A47C68BD1FD795C900A2A0A1 /* NSDictionary+SafeException.m in Sources */ = {isa = PBXBuildFile; fileRef = A47C68BC1FD795C900A2A0A1 /* NSDictionary+SafeException.m */; };
+		A47C68C01FD795F500A2A0A1 /* NSMutableDictionary+SafeException.m in Sources */ = {isa = PBXBuildFile; fileRef = A47C68BF1FD795F500A2A0A1 /* NSMutableDictionary+SafeException.m */; };
+		A47C68C31FD7961800A2A0A1 /* NSArray+SafeException.m in Sources */ = {isa = PBXBuildFile; fileRef = A47C68C21FD7961800A2A0A1 /* NSArray+SafeException.m */; };
+		A47C68C61FD7962F00A2A0A1 /* NSMutableArray+SafeException.m in Sources */ = {isa = PBXBuildFile; fileRef = A47C68C51FD7962F00A2A0A1 /* NSMutableArray+SafeException.m */; };
+		A47C68C91FD7A15600A2A0A1 /* NSObject+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = A47C68C81FD7A15600A2A0A1 /* NSObject+Swizzle.m */; };
+		A47C68E31FDA9E8700A2A0A1 /* NullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = A47C68E21FDA9E8700A2A0A1 /* NullSafe.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A439D7481FD6707A007B8310 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A439D7271FD6707A007B8310 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A439D72E1FD6707A007B8310;
+			remoteInfo = QHSafeException;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A439D72F1FD6707A007B8310 /* QHSafeException.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QHSafeException.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A439D7321FD6707A007B8310 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A439D7331FD6707A007B8310 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A439D7351FD6707A007B8310 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A439D7361FD6707A007B8310 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A439D7391FD6707A007B8310 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A439D73B1FD6707A007B8310 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A439D73E1FD6707A007B8310 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A439D7401FD6707A007B8310 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A439D7411FD6707A007B8310 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A439D7471FD6707A007B8310 /* QHSafeExceptionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QHSafeExceptionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A439D74B1FD6707A007B8310 /* QHSafeExceptionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QHSafeExceptionTests.m; sourceTree = "<group>"; };
+		A439D74D1FD6707A007B8310 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A47C68BB1FD795C900A2A0A1 /* NSDictionary+SafeException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SafeException.h"; sourceTree = "<group>"; };
+		A47C68BC1FD795C900A2A0A1 /* NSDictionary+SafeException.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SafeException.m"; sourceTree = "<group>"; };
+		A47C68BE1FD795F500A2A0A1 /* NSMutableDictionary+SafeException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+SafeException.h"; sourceTree = "<group>"; };
+		A47C68BF1FD795F500A2A0A1 /* NSMutableDictionary+SafeException.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+SafeException.m"; sourceTree = "<group>"; };
+		A47C68C11FD7961800A2A0A1 /* NSArray+SafeException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+SafeException.h"; sourceTree = "<group>"; };
+		A47C68C21FD7961800A2A0A1 /* NSArray+SafeException.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SafeException.m"; sourceTree = "<group>"; };
+		A47C68C41FD7962F00A2A0A1 /* NSMutableArray+SafeException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+SafeException.h"; sourceTree = "<group>"; };
+		A47C68C51FD7962F00A2A0A1 /* NSMutableArray+SafeException.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+SafeException.m"; sourceTree = "<group>"; };
+		A47C68C71FD7A15600A2A0A1 /* NSObject+Swizzle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzle.h"; sourceTree = "<group>"; };
+		A47C68C81FD7A15600A2A0A1 /* NSObject+Swizzle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzle.m"; sourceTree = "<group>"; };
+		A47C68E21FDA9E8700A2A0A1 /* NullSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NullSafe.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A439D72C1FD6707A007B8310 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A439D7441FD6707A007B8310 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A439D7261FD6707A007B8310 = {
+			isa = PBXGroup;
+			children = (
+				A439D7311FD6707A007B8310 /* QHSafeException */,
+				A439D74A1FD6707A007B8310 /* QHSafeExceptionTests */,
+				A439D7301FD6707A007B8310 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A439D7301FD6707A007B8310 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A439D72F1FD6707A007B8310 /* QHSafeException.app */,
+				A439D7471FD6707A007B8310 /* QHSafeExceptionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A439D7311FD6707A007B8310 /* QHSafeException */ = {
+			isa = PBXGroup;
+			children = (
+				A439D7561FD6707E007B8310 /* QHSafeException */,
+				A439D7321FD6707A007B8310 /* AppDelegate.h */,
+				A439D7331FD6707A007B8310 /* AppDelegate.m */,
+				A439D7351FD6707A007B8310 /* ViewController.h */,
+				A439D7361FD6707A007B8310 /* ViewController.m */,
+				A439D7381FD6707A007B8310 /* Main.storyboard */,
+				A439D73B1FD6707A007B8310 /* Assets.xcassets */,
+				A439D73D1FD6707A007B8310 /* LaunchScreen.storyboard */,
+				A439D7401FD6707A007B8310 /* Info.plist */,
+				A439D7411FD6707A007B8310 /* main.m */,
+			);
+			path = QHSafeException;
+			sourceTree = "<group>";
+		};
+		A439D74A1FD6707A007B8310 /* QHSafeExceptionTests */ = {
+			isa = PBXGroup;
+			children = (
+				A439D74B1FD6707A007B8310 /* QHSafeExceptionTests.m */,
+				A439D74D1FD6707A007B8310 /* Info.plist */,
+			);
+			path = QHSafeExceptionTests;
+			sourceTree = "<group>";
+		};
+		A439D7561FD6707E007B8310 /* QHSafeException */ = {
+			isa = PBXGroup;
+			children = (
+				A47C68BB1FD795C900A2A0A1 /* NSDictionary+SafeException.h */,
+				A47C68BC1FD795C900A2A0A1 /* NSDictionary+SafeException.m */,
+				A47C68BE1FD795F500A2A0A1 /* NSMutableDictionary+SafeException.h */,
+				A47C68BF1FD795F500A2A0A1 /* NSMutableDictionary+SafeException.m */,
+				A47C68C11FD7961800A2A0A1 /* NSArray+SafeException.h */,
+				A47C68C21FD7961800A2A0A1 /* NSArray+SafeException.m */,
+				A47C68C41FD7962F00A2A0A1 /* NSMutableArray+SafeException.h */,
+				A47C68C51FD7962F00A2A0A1 /* NSMutableArray+SafeException.m */,
+				A47C68C71FD7A15600A2A0A1 /* NSObject+Swizzle.h */,
+				A47C68C81FD7A15600A2A0A1 /* NSObject+Swizzle.m */,
+				A47C68E21FDA9E8700A2A0A1 /* NullSafe.m */,
+			);
+			path = QHSafeException;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A439D72E1FD6707A007B8310 /* QHSafeException */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A439D7501FD6707A007B8310 /* Build configuration list for PBXNativeTarget "QHSafeException" */;
+			buildPhases = (
+				A439D72B1FD6707A007B8310 /* Sources */,
+				A439D72C1FD6707A007B8310 /* Frameworks */,
+				A439D72D1FD6707A007B8310 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QHSafeException;
+			productName = QHSafeException;
+			productReference = A439D72F1FD6707A007B8310 /* QHSafeException.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A439D7461FD6707A007B8310 /* QHSafeExceptionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A439D7531FD6707A007B8310 /* Build configuration list for PBXNativeTarget "QHSafeExceptionTests" */;
+			buildPhases = (
+				A439D7431FD6707A007B8310 /* Sources */,
+				A439D7441FD6707A007B8310 /* Frameworks */,
+				A439D7451FD6707A007B8310 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A439D7491FD6707A007B8310 /* PBXTargetDependency */,
+			);
+			name = QHSafeExceptionTests;
+			productName = QHSafeExceptionTests;
+			productReference = A439D7471FD6707A007B8310 /* QHSafeExceptionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A439D7271FD6707A007B8310 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = karl.luo;
+				TargetAttributes = {
+					A439D72E1FD6707A007B8310 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					A439D7461FD6707A007B8310 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A439D72E1FD6707A007B8310;
+					};
+				};
+			};
+			buildConfigurationList = A439D72A1FD6707A007B8310 /* Build configuration list for PBXProject "QHSafeException" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A439D7261FD6707A007B8310;
+			productRefGroup = A439D7301FD6707A007B8310 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A439D72E1FD6707A007B8310 /* QHSafeException */,
+				A439D7461FD6707A007B8310 /* QHSafeExceptionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A439D72D1FD6707A007B8310 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A439D73F1FD6707A007B8310 /* LaunchScreen.storyboard in Resources */,
+				A439D73C1FD6707A007B8310 /* Assets.xcassets in Resources */,
+				A439D73A1FD6707A007B8310 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A439D7451FD6707A007B8310 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A439D72B1FD6707A007B8310 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A47C68C91FD7A15600A2A0A1 /* NSObject+Swizzle.m in Sources */,
+				A439D7371FD6707A007B8310 /* ViewController.m in Sources */,
+				A47C68E31FDA9E8700A2A0A1 /* NullSafe.m in Sources */,
+				A47C68C01FD795F500A2A0A1 /* NSMutableDictionary+SafeException.m in Sources */,
+				A439D7421FD6707A007B8310 /* main.m in Sources */,
+				A439D7341FD6707A007B8310 /* AppDelegate.m in Sources */,
+				A47C68C61FD7962F00A2A0A1 /* NSMutableArray+SafeException.m in Sources */,
+				A47C68BD1FD795C900A2A0A1 /* NSDictionary+SafeException.m in Sources */,
+				A47C68C31FD7961800A2A0A1 /* NSArray+SafeException.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A439D7431FD6707A007B8310 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A439D74C1FD6707A007B8310 /* QHSafeExceptionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A439D7491FD6707A007B8310 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A439D72E1FD6707A007B8310 /* QHSafeException */;
+			targetProxy = A439D7481FD6707A007B8310 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A439D7381FD6707A007B8310 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A439D7391FD6707A007B8310 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A439D73D1FD6707A007B8310 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A439D73E1FD6707A007B8310 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A439D74E1FD6707A007B8310 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A439D74F1FD6707A007B8310 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A439D7511FD6707A007B8310 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Y845XRY6W;
+				INFOPLIST_FILE = QHSafeException/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.globalegrow.QHSafeException;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A439D7521FD6707A007B8310 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Y845XRY6W;
+				INFOPLIST_FILE = QHSafeException/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.globalegrow.QHSafeException;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A439D7541FD6707A007B8310 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Y845XRY6W;
+				INFOPLIST_FILE = QHSafeExceptionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.globalegrow.QHSafeExceptionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QHSafeException.app/QHSafeException";
+			};
+			name = Debug;
+		};
+		A439D7551FD6707A007B8310 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Y845XRY6W;
+				INFOPLIST_FILE = QHSafeExceptionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.globalegrow.QHSafeExceptionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QHSafeException.app/QHSafeException";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A439D72A1FD6707A007B8310 /* Build configuration list for PBXProject "QHSafeException" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A439D74E1FD6707A007B8310 /* Debug */,
+				A439D74F1FD6707A007B8310 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A439D7501FD6707A007B8310 /* Build configuration list for PBXNativeTarget "QHSafeException" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A439D7511FD6707A007B8310 /* Debug */,
+				A439D7521FD6707A007B8310 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A439D7531FD6707A007B8310 /* Build configuration list for PBXNativeTarget "QHSafeExceptionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A439D7541FD6707A007B8310 /* Debug */,
+				A439D7551FD6707A007B8310 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A439D7271FD6707A007B8310 /* Project object */;
+}
